@@ -5,6 +5,9 @@
 
 ### Features
 
+- add training functionality and data validation in train.py ([ad411fc](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/ad411fccd66e2ccd67d048cac70b984b5fd1ba6d))
+- implement data upload and management functionality in preparation.py ([27a99b4](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/27a99b44957938752f7d7fd4fbf9562d4523361f))
+- update layout.py to include Model Training and Information pages ([25d64c7](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/25d64c7756aa7c2b0fcf02d07ff061d9e350e6ff))
 - add preparation.py for initial setup and configuration ([536d982](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/536d9823f18da38fc531fd2b28d509bf33a8df64))
 - update main.py to include page configuration and setter functions ([e5946bb](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/e5946bb634c4794104468be9013abaa2d64ed440))
 - add layout.py for page configuration and sidebar navigation ([d4fdfc0](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/d4fdfc025b6c17eb603872d18460d5028b4b0772))
@@ -25,6 +28,7 @@
 
 ### Docs
 
+- update CHANGELOG.md with recent documentation changes ([a63b8e5](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/a63b8e5fb2245b3f9245b7c81e367c491ff4c9e6))
 - update README.zh-CN.md to clarify Git LFS upload instructions ([6faf2c4](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/6faf2c435dcffa422031edfd437e258c2751dd8d))
 - clarify Git LFS instructions in README.md ([b421f86](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/b421f862a3f57ff016aadd488a9552ca4f48d7dc))
 - update CHANGELOG.md with recent changes and additions ([7c2a385](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/7c2a38542eed8ba7a0f29d814c58ffbd0b1734a9))
