@@ -28,7 +28,8 @@ transformed with PCA due to privacy concerns. The only features which have not b
 
 **LARGE FILE STORAGE (LFS)**
 ---
-This project uses Git Large File Storage (LFS) to manage large files, such as datasets, models, and binary files.
+This project uses Git Large File Storage (LFS) to manage large files, such as datasets, models, and binary files. The
+instructions as follows are only used to upload the large file to the remote repository.
 
 1. Install Git LFS with the command `brew install git-lfs`.
 2. Initialise Git LFS in the repository with the command `git lfs install`. **ONLY ONCE**.
@@ -41,7 +42,8 @@ This project uses Git Large File Storage (LFS) to manage large files, such as da
 8. Push the changes to the remote repository with the command `git push origin main` or using the UI interface.
 9. If you fail to push the large files, you might have used 2FA authentication. The normal push of the button of the
    UI interface is invalid. You can try to use a **personal access token (PAT)** instead of accessing the GitHub
-   repository. If you have had the token, run the command `git push origin main` first. Then, enter the `username` and the `token`
+   repository. If you have had the token, run the command `git push origin main` first. Then, enter the `username` and
+   the `token`
    as the password.
 10. When you push with `username` and `token` successfully first, you can continue to use the button of the UI interface
     to push the changes.
