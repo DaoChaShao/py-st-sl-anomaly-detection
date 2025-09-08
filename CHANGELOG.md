@@ -25,7 +25,9 @@
 
 ### Docs
 
-- update CHANGELOG.md with recent changes and additions ([781073b](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/781073b57315715b3291ebb18b2bf34b30ecfff5))
+- update README.zh-CN.md to clarify Git LFS upload instructions ([6faf2c4](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/6faf2c435dcffa422031edfd437e258c2751dd8d))
+- clarify Git LFS instructions in README.md ([b421f86](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/b421f862a3f57ff016aadd488a9552ca4f48d7dc))
+- update CHANGELOG.md with recent changes and additions ([7c2a385](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/7c2a38542eed8ba7a0f29d814c58ffbd0b1734a9))
 - add Chinese README.md with project overview, dataset details, and usage instructions ([ad078b6](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/ad078b6a4b498a49aa27813642bc2463975657b3))
 - add README.md with project introduction, dataset details, and usage instructions ([dd01513](https://github.com/DaoChaShao/py-st-sl-anomaly-detection/commit/dd01513c6dee68718d5a5511bdb266b8102b55e6))
 
