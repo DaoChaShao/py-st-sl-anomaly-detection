@@ -1,14 +1,18 @@
 #!/usr/bin/env python3.12
 # -*- Coding: UTF-8 -*-
-# @Time     :   2025/9/8 19:20
+# @Time     :   2025/9/8 15:41
 # @Author   :   Shawn
 # @Version  :   Version 0.1.0
 # @File     :   main.py
 # @Desc     :   
 
+from utils.layout import page_config, pages_setter
+
+
 def main() -> None:
-    """ Main Function """
-    pass
+    """ streamlit run main.py """
+    page_config()
+    pages_setter()
 
 
 if __name__ == "__main__":
