@@ -10,9 +10,9 @@ techniques on credit card transaction data. The project utilises the famous Kagg
 an intuitive user interface with Streamlit.
 
 This project is a practical platform for **machine learning beginners and enthusiasts** to understand **the core
-concepts and workflow of Anomaly Detection**. Anomaly detection is a technique for identifying rare items, events, or
-observations that raise suspicions by differing significantly from most of the data. This technology is critical
-in financial security areas, such as credit card fraud identification.
+concepts and workflow of Anomaly Detection**. This application implements anomaly detection on credit card transaction
+data using the Isolation Forest model. Users can upload datasets, select features, preprocess the data, train the model,
+and visualize anomalies and feature distributions.
 
 **DATASET**
 ---
@@ -25,6 +25,29 @@ transformed with PCA due to privacy concerns. The only features which have not b
 + **Target Variable**: `Class` (1 for fraud, 0 for normal transaction)
 + **Key Challenge**: The data is highly imbalanced; the positive class (frauds) account for only 0.172% of all
   transactions.
+
+**FEATURES**
+---
+
+1. **Data Upload & Management**
+    - Upload CSV datasets and preview data;
+    - Check for missing values and duplicate records;
+    - Drop duplicates or reset the dataset.
+
+2. **Data Visualization**
+    - Single-feature histogram with category coloring;
+    - Feature correlation heatmap;
+    - PCA 2D / 3D scatter plots.
+
+3. **Model Training**
+    - Train Isolation Forest for anomaly detection;
+    - Set contamination rate (auto or custom percentage);
+    - Set random seed for reproducibility.
+
+4. **Anomaly Detection Results**
+    - Display inliers and outliers ratio after training;
+    - Histogram of anomaly scores;
+    - Dynamic threshold annotation.
 
 **LARGE FILE STORAGE (LFS)**
 ---
