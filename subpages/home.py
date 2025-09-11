@@ -13,4 +13,12 @@ empty_message.info("Please check the details at the different pages of core func
 
 title("Anomaly Detection Application")
 with expander("**INTRODUCTION**", expanded=True):
-    caption("-")
+    caption("+ Data cleaning: drop duplicates or reset the dataset")
+    caption("+ Single-feature histograms with category coloring")
+    caption("+ Feature correlation heatmap")
+    caption("+ PCA 2D / 3D scatter plots")
+    caption("+ Anomaly detection using Isolation Forest")
+    caption("+ Set contamination rate (auto or custom percentage)")
+    caption("+ Set random seed for reproducibility")
+    caption("+ Display inliers and outliers ratio")
+    caption("+ Plot anomaly scores histogram with dynamic threshold annotation")
